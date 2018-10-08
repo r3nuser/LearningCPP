@@ -19,8 +19,3 @@ void Rectangle::setHeight(int h){
 void Rectangle::setWidth(int w){
 	width = w;
 }
-
-Rectangle::Rectangle(int w, int h){
-	width = w;
-	height = h;
-}
