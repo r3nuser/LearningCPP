@@ -1,17 +1,20 @@
 #include "Empregado.h"
 
+Empregado::Empregado(int i, char* n){
+    id = i;
+    nome = n;
+}
+
 Empregado::~Empregado(){
-    delete id;
-    delete nome;
+
 }
 
-void Empregado::setId(int id){
-    this.id = id;
+void Empregado::setId(int i){
+    id = i;
 }
 
-void Empregado::setNome(char* nome){
-    delete nome;
-    this.nome = nome;
+void Empregado::setNome(char* n){
+        
 }
 
 int Empregado::getId(){
